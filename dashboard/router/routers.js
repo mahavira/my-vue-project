@@ -1,0 +1,29 @@
+export default [{
+  path: '/',
+  title: '首页',
+  component: require('../pages/home.vue')
+}, {
+  path: '/page',
+  title: '页面',
+  component: require('../pages/page.vue')
+}, {
+  path: '/component',
+  title: '组件',
+  component: require('../pages/component.vue')
+}, {
+  path: '/router',
+  title: '路由',
+  component: require('../pages/router.vue')
+}, {
+  path: '/vuex',
+  title: 'Vuex',
+  component: require('../pages/page.vue')
+}, {
+  path: '/category',
+  title: '工程目录',
+  component: require('../pages/page.vue')
+}, {
+  path: '/build',
+  title: '打包',
+  component: require('../pages/page.vue')
+}]
